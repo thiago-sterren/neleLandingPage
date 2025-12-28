@@ -13,8 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "nele | Newsletters",
+  title: "nele | Renueva tu newsletter",
   description: "Crea newsletters para tu comunidad de una manera renovada, permitiéndo una búsqueda de información más sencilla, con ayuda de IA.",
+  openGraph: {
+    title: "nele | Renueva tu newsletter",
+    description: "Crea newsletters para tu comunidad de una manera renovada, permitiéndo una búsqueda de información más sencilla, con ayuda de IA.",
+    url: "https://nele-landing-page.vercel.app",
+    siteName: "nele",
+    images: [
+      {
+        url: "/neleLogoSitePreview.png",
+        width: 2048,
+        height: 960,
+        alt: "Vista previa del sitio web de nele",
+      },
+    ],
+    locale: "es_AR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
