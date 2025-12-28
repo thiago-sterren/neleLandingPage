@@ -76,7 +76,7 @@ export default function ProjectPromise() {
                     <div className="w-12 h-12 bg-purple-50 rounded-xl flex items-center justify-center mb-4">
                         <Users className="w-6 h-6 text-[#8B7FDB]" />
                     </div>
-                    <h4 className="text-2xl font-bold text-[#3D3851] mb-2">Mayor Retención</h4>
+                    <h4 className="text-2xl font-bold text-[#3D3851] mb-2">Mayor retención</h4>
                     <p className="text-[#76718A] text-xl sm:text-lg leading-relaxed">
                         Tus suscriptores tienen una razón para quedarse y consultar tu plataforma, no solo leer el mail.
                     </p>
